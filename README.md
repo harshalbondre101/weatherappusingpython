@@ -7,7 +7,7 @@ As we build our weather tracker, our first task will be to accurately get the te
 
 In our first milestone, using OIKO as a the weather tracker, we want to find out the temperature of a given city at a given time.
 
-Input Format
+# Input Format
 The first line contains the name of the first city
 The second line contains the date in the format YYYY-MM-DD.
 You need to print the temperature of the given city at the particular date.
@@ -17,11 +17,12 @@ Check the examples for the required format
 Example Input
 Delhi
 2022-09-01
-Output
+
+# Output
 Temperature for Delhi on 2022-09-01 = 31.97C
 
 
-#JSON in Python
+# JSON in Python
 JSON stands for JavaScript Object Notation. It is widely used in internet communication. The internet is full of systems that speak to each other. To do this, they need to all speak in one common format. One of the most popular formats is JSON.
 
 We will soon start writing code that will need to communicate with other systems. In that case, we will be using the JSON format.
@@ -136,7 +137,7 @@ Output
         }
     ]
 }
-#Writing JSON to a file
+# Writing JSON to a file
 We can use the json.dump() method to write to a file
 
 import json
@@ -204,7 +205,7 @@ Output
 {'firstName': 'Jim', 'lastName': 'Halpert', 'departments': ['sales', 'finance', 'marketing'], 'age': 25, 'friends': [{'firstName': 'Pam', 'age': 20}, {'firstName': 'Dwight', 'age': 30}]}
 
 
-#requests library in Python
+# Requests library in Python
 As mentioned earlier, Python is widely used in web development, particularly in the backend web development.
 
 An important concept in software programming, and particularly in web development, is that of an API - an Application Programming Interface
@@ -219,7 +220,7 @@ The concept becomes much clearer when you start developing projects and applicat
 
 For web related APIs, Python has a very useful library for us: the requests library. Before we dive deeper into that, let's understand some verbs of APIs.
 
-HTTP verbs
+# HTTP verbs
 Most APIs over the internet happen over HTTP -  a very well-defined protocol.
 
 HTTP has many verbs, but the primary or most-commonly-used HTTP verbs (or methods, as they are properly called) are POST, GET, PUT, PATCH, and DELETE.
